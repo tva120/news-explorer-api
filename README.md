@@ -10,8 +10,7 @@ https://tva120.github.io/news-explorer-api/
 * Yandex.Cloud
 * Backend
 
-front:
-https://tvaa.students.nomoreparties.xyz/
+
 api:
 https://api.tvaa.students.nomoreparties.xyz/
 ip:
