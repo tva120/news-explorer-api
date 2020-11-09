@@ -25,7 +25,7 @@ mongoose.connect(NODE_ENV === 'production' ? DB_CONNECT_PROD : DB_CONNECT, {
   useFindAndModify: false,
   useUnifiedTopology: true,
 });
-console.log(NODE_ENV);
+console.log(process.env);
 app.use(limiter);
 
 app.use(helmet(
