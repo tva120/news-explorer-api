@@ -8,8 +8,8 @@
   "scripts": {
     "lint": "eslint",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js cross-env NODE_ENV=production DB_CONNECT = 'mongodb://localhost:27017/newsdb'",
-    "dev": "nodemon app.js cross-env NODE_ENV=development"
+    "start": "node app.js",
+    "dev": "nodemon app.js"
   },
   "repository": {
     "type": "git",
