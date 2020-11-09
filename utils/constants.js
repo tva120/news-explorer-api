@@ -4,7 +4,7 @@ const authErrorText = 'Необходима авторизация';
 const existErrorText = (email) => `Пользователь с email ${email} уже существует!`;
 const internalErrorText = 'На сервере произошла ошибка';
 const rightsErrorText = 'Недостаточно прав';
-const successText = {message:'Успешно!'};
+const successText = { message: 'Успешно!' };
 
 module.exports = {
   notFoundErrorText,

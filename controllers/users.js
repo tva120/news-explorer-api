@@ -27,7 +27,7 @@ const login = (req, res, next) => {
         httpOnly: true,
         sameSite: true,
       })
-        .send( NODE_ENV === 'production' ? successText : token);
+        .send(NODE_ENV === 'production' ? successText : token);
     })
     .catch(next);
 };
