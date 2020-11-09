@@ -3,11 +3,11 @@ const {
 } = require('../utils/constants.js');
 
 const errorsMid = (err, req, res, next) => {
-  const { status = 500, message } = err;
-
-  res.status(status)
+  const { statusCode = 500, message } = err;
+  console.log(err);
+  res.status(statusCode)
     .send({
-      message: status === 500
+      message: statusCode === 500
         ? internalErrorText
         : message,
     });
